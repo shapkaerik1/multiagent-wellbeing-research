@@ -1,0 +1,72 @@
+{
+  "economic_stress_summary": "## Economic Stress Summary\n\nHawaii and California exhibit the highest cost-burden indices (1.000 and 0.886, respectively), driven primarily by elevated rent-to-income ratios (0.304 and 0.270) despite their comparatively higher median incomes, suggesting housing costs are the dominant stress factor in these states. Montana presents a notable case, ranking third in cost burden (0.765) with a relatively modest median income of $69,922, indicating affordability pressure without the income offset seen in coastal states. In contrast, North Dakota and Minnesota share the lowest cost-burden indices (0.041) with rent-to-income ratios of just 0.155, despite mid-range median incomes, pointing to housing affordability as the primary differentiator across the distribution. Gas and grocery CPI values are uniform within the high-burden and low-burden clusters, confirming that rent-to-income ratio is the key variable driving divergence in cost-burden rankings across these states.",
+  "culture_disparity_summary": "## Culture Disparity Agent Summary\n\nAcross the five states with the highest racial/ethnic income disparity scores, a consistent pattern emerges: Black residents represent the lowest-income group and Asian residents represent the highest-income group in every case. Michigan and New Jersey exhibit the most pronounced disparities, with scores of 0.8733 and 0.8711 respectively, followed closely by North Carolina, Ohio, and Arkansas. The disparity scores across all five states fall within a relatively narrow range (0.8395\u20130.8733), suggesting a similarly high degree of income inequality between these two groups regardless of regional geography. These findings highlight a persistent and geographically widespread income gap between Black and Asian racial/ethnic groups, though the underlying factors contributing to this pattern are not captured within this dataset alone.",
+  "wellbeing_summary": "The data shows a clear inverse relationship between income and psychological distress, with lower-income groups experiencing substantially higher rates of frequent mental distress. Those earning under $25k report the highest distress rate at 27.24%, which is more than three times the rate observed among those earning $150k or more (8.99%). The steepest decline occurs between the lowest two brackets, dropping nearly 8 percentage points from under $25k to the $25k\u2013$50k range, while reductions become more gradual at higher income levels. Notably, the $50k\u2013$75k and $75k\u2013$100k brackets show identical distress rates of 14.18%, suggesting a plateau effect in the middle-income range.",
+  "policy_context": "Now I have strong findings across all five states. Let me compile the top 3 most relevant and well-sourced findings.Here is a summary of the **3 most relevant recent findings** on housing affordability and economic relief across Hawaii, California, Montana, Nevada, and Arizona:\n\n---\n\n### 1. \ud83c\udfdd\ufe0f Hawaii's Housing Crisis Persists Despite Modest Relief\nThe University of Hawai\u02bbi Economic Research Organization (UHERO) released its *Hawai\u02bbi Housing Factbook 2026*, finding that the state's housing crisis remains severe despite modest improvements driven by flat home prices, rising incomes, and lower mortgage rates in 2025. The statewide median price of a single-family home stood at $950,000 in 2025, and permitting delays continue to constrain new housing supply, with mixed results across counties.\n\n---\n\n### 2. \ud83c\udfd4\ufe0f Montana's Landmark Housing Reforms and New Funding\nMontana made history in 2025 with the creation of the **Montana Growth and Opportunity Trust** through House Bill 924 \u2014 marking the first time the state has ever allocated ongoing state appropriations specifically for affordable housing. Separately, the *Montana Department of Commerce* announced in December 2025 that over **$39 million in federal housing tax credits** had been allocated to five developers to build or rehabilitate 160 affordable homes across communities including Billings, Missoula, and Kalispell.\n\n---\n\n### 3. \ud83c\udf35 California's Affordability Push and Arizona's Zoning Battles\nCalifornia's Assembly Speaker Robert Rivas highlighted a package of new affordability laws taking effect in 2025\u20132026, including **AB 12**, which caps security deposits at one month's rent to lower move-in costs for millions of renters, alongside $52 million secured for food banks and expanded paid sick leave. Meanwhile in Arizona, proposed legislation **HB 2595** (introduced January 2025) seeks to override the state's prohibition on inclusionary zoning, which would allow cities to require new multi-family housing developments of 20+ units to designate up to 20% of units as affordable for up to 20 years.\n\n---\n\n**Key Takeaway:** Across these Western states, the policy response to the housing affordability crisis is",
+  "coordinator_report": "# Unified Findings Summary\n\nAcross the domains of economic stress, cultural disparity, and psychological wellbeing, a coherent and mutually reinforcing pattern of disadvantage emerges at both the state and population-group levels. States with the highest housing cost burdens \u2014 Hawaii (index: 1.000), California (0.886), and Montana (0.765) \u2014 face structural affordability challenges driven primarily by rent-to-income ratios rather than uniform inflationary pressures such as gas or grocery costs, which remain consistent across burden clusters. These conditions align with the wellbeing data showing that lower-income individuals, who are disproportionately exposed to housing cost burdens, report frequent mental distress at rates exceeding three times those of higher earners (27.24% vs. 8.99%). The cultural disparity findings further compound this picture: in the five states with the highest racial and ethnic income gaps, Black residents consistently occupy the lowest income tier, a group that \u2014 given the income-distress gradient identified by the Wellbeing Agent \u2014 would be statistically most exposed to elevated psychological distress. This convergence suggests that housing unaffordability, racial income inequality, and mental health burden are not isolated phenomena but are likely co-occurring and structurally linked stressors concentrated among the same vulnerable populations.\n\nOn the policy front, recent legislative developments in Hawaii, Montana, and California represent meaningful but nascent responses to these entrenched conditions. Montana's creation of the Growth and Opportunity Trust and its allocation of $39 million in federal housing tax credits mark a significant first step for a state that has historically lacked dedicated affordable housing appropriations. California's AB 12 security deposit cap and Arizona's proposed inclusionary zoning legislation (HB 2595) reflect incremental demand-side and supply-side interventions respectively, though their scale relative to the magnitude of the crisis remains uncertain. Several important limitations bear noting: the racial disparity analysis captures only the income gap between Black and Asian residents and does not account for within-group heterogeneity, geographic clustering, or causal mechanisms; the psychological distress data are self-reported and income-bracketed nationally, preventing state-level disaggregation; and the cost-burden index, while a useful comparative tool, does not capture asset wealth, household debt loads, or informal income sources. These gaps underscore the need for longitudinal, disaggregated data collection that links housing costs, racial economic status, and mental health outcomes within the same analytical units before stronger causal inferences can be drawn.",
+  "model_diagnostics": {
+    "out_of_sample": {
+      "r2_score": 0.0326,
+      "rmse": 1.8605,
+      "n_train": 40,
+      "n_test": 10
+    },
+    "ols_full_sample": {
+      "r2": 0.3273,
+      "adj_r2": 0.2834,
+      "f_pvalue": 0.00036,
+      "n": 50,
+      "coefficients": {
+        "const": {
+          "coef": 20.54108,
+          "p_value": 0.0,
+          "ci_95": [
+            16.94413,
+            24.13803
+          ]
+        },
+        "cost_burden_index": {
+          "coef": 1.59916,
+          "p_value": 0.16679,
+          "ci_95": [
+            -0.6922,
+            3.89052
+          ]
+        },
+        "disparity_score": {
+          "coef": 2.94257,
+          "p_value": 0.054,
+          "ci_95": [
+            -0.05269,
+            5.93783
+          ]
+        },
+        "median_income_10k": {
+          "coef": -0.90047,
+          "p_value": 0.0001,
+          "ci_95": [
+            -1.32476,
+            -0.47618
+          ]
+        }
+      },
+      "residual_diagnostics": {
+        "durbin_watson": 1.9237,
+        "breusch_pagan_pvalue": 0.52525,
+        "jarque_bera_pvalue": 0.57183
+      }
+    },
+    "r2_score": 0.0326,
+    "rmse": 1.8605,
+    "coefficients": {
+      "cost_burden_index": 2.12172,
+      "disparity_score": 3.29539,
+      "median_income_10k": -1.05594
+    },
+    "intercept": 21.38059,
+    "n_train": 40,
+    "n_test": 10
+  },
+  "ols_summary": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:           distress_pct   R-squared:                       0.327\nModel:                            OLS   Adj. R-squared:                  0.283\nMethod:                 Least Squares   F-statistic:                     7.461\nDate:                Tue, 07 Jul 2026   Prob (F-statistic):           0.000359\nTime:                        05:23:13   Log-Likelihood:                -94.461\nNo. Observations:                  50   AIC:                             196.9\nDf Residuals:                      46   BIC:                             204.6\nDf Model:                           3                                         \nCovariance Type:            nonrobust                                         \n=====================================================================================\n                        coef    std err          t      P>|t|      [0.025      0.975]\n-------------------------------------------------------------------------------------\nconst                20.5411      1.787     11.495      0.000      16.944      24.138\ncost_burden_index     1.5992      1.138      1.405      0.167      -0.692       3.891\ndisparity_score       2.9426      1.488      1.977      0.054      -0.053       5.938\nmedian_income_10k    -0.9005      0.211     -4.272      0.000      -1.325      -0.476\n==============================================================================\nOmnibus:                        1.289   Durbin-Watson:                   1.924\nProb(Omnibus):                  0.525   Jarque-Bera (JB):                1.118\nSkew:                           0.173   Prob(JB):                        0.572\nKurtosis:                       2.354   Cond. No.                         69.6\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.",
+  "brfss_year": "2022"
+}

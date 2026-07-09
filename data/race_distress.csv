@@ -1,0 +1,203 @@
+state,race_group,distress_pct
+Alabama,Black,17.9
+Alabama,White,18.2
+Alaska,Black,25.9
+Alaska,Hispanic,15.8
+Alaska,Other/Multiracial,17.79
+Alaska,White,13.7
+Arizona,Asian,18.6
+Arizona,Black,20.0
+Arizona,Hispanic,16.1
+Arizona,Other/Multiracial,19.13
+Arizona,White,16.1
+Arkansas,Black,20.9
+Arkansas,Hispanic,15.0
+Arkansas,Other/Multiracial,25.63
+Arkansas,White,20.4
+California,Asian,10.6
+California,Black,15.8
+California,Hispanic,14.7
+California,Other/Multiracial,21.25
+California,White,14.6
+Colorado,Asian,11.6
+Colorado,Black,16.6
+Colorado,Hispanic,18.3
+Colorado,Other/Multiracial,23.11
+Colorado,White,14.8
+Connecticut,Asian,11.2
+Connecticut,Black,15.2
+Connecticut,Hispanic,17.4
+Connecticut,Other/Multiracial,32.1
+Connecticut,White,13.0
+Delaware,Black,13.3
+Delaware,Hispanic,15.9
+Delaware,Other/Multiracial,24.5
+Delaware,White,14.2
+Florida,Black,15.6
+Florida,Hispanic,14.8
+Florida,Other/Multiracial,21.23
+Florida,White,14.8
+Georgia,Asian,16.6
+Georgia,Black,16.1
+Georgia,Hispanic,13.9
+Georgia,Other/Multiracial,20.6
+Georgia,White,16.1
+Hawaii,Asian,7.3
+Hawaii,Hispanic,18.6
+Hawaii,Other/Multiracial,14.77
+Hawaii,White,12.5
+Idaho,Hispanic,21.7
+Idaho,Other/Multiracial,23.8
+Idaho,White,13.8
+Illinois,Asian,8.7
+Illinois,Black,15.8
+Illinois,Hispanic,12.1
+Illinois,Other/Multiracial,26.0
+Illinois,White,13.2
+Indiana,Black,16.9
+Indiana,Hispanic,13.9
+Indiana,Other/Multiracial,24.7
+Indiana,White,16.9
+Iowa,Black,12.6
+Iowa,Hispanic,13.5
+Iowa,Other/Multiracial,29.6
+Iowa,White,13.3
+Kansas,Black,19.7
+Kansas,Hispanic,16.5
+Kansas,Other/Multiracial,23.8
+Kansas,White,15.1
+Kentucky,Black,19.6
+Kentucky,Hispanic,22.1
+Kentucky,Other/Multiracial,34.9
+Kentucky,White,15.2
+Louisiana,Black,19.7
+Louisiana,Hispanic,19.7
+Louisiana,Other/Multiracial,30.1
+Louisiana,White,20.1
+Maine,Hispanic,17.6
+Maine,Other/Multiracial,31.35
+Maine,White,15.5
+Maryland,Asian,9.6
+Maryland,Black,13.7
+Maryland,Hispanic,12.0
+Maryland,Other/Multiracial,22.76
+Maryland,White,15.4
+Massachusetts,Asian,7.3
+Massachusetts,Black,13.6
+Massachusetts,Hispanic,18.1
+Massachusetts,Other/Multiracial,25.2
+Massachusetts,White,14.3
+Michigan,Black,18.7
+Michigan,Hispanic,24.1
+Michigan,Other/Multiracial,23.86
+Michigan,White,16.0
+Minnesota,Asian,11.8
+Minnesota,Black,13.9
+Minnesota,Hispanic,18.9
+Minnesota,Other/Multiracial,27.0
+Minnesota,White,14.1
+Mississippi,Black,14.7
+Mississippi,Hispanic,23.4
+Mississippi,White,15.9
+Missouri,Black,21.2
+Missouri,Hispanic,20.8
+Missouri,Other/Multiracial,25.9
+Missouri,White,16.3
+Montana,Hispanic,21.6
+Montana,Other/Multiracial,24.37
+Montana,White,15.5
+Nebraska,Black,12.3
+Nebraska,Hispanic,9.4
+Nebraska,Other/Multiracial,28.9
+Nebraska,White,12.1
+Nevada,Black,13.8
+Nevada,Hispanic,15.7
+Nevada,Other/Multiracial,27.7
+Nevada,White,14.3
+New Hampshire,Hispanic,19.5
+New Hampshire,Other/Multiracial,32.8
+New Hampshire,White,16.4
+New Jersey,Asian,12.0
+New Jersey,Black,15.5
+New Jersey,Hispanic,13.6
+New Jersey,Other/Multiracial,15.8
+New Jersey,White,13.6
+New Mexico,Hispanic,16.2
+New Mexico,Other/Multiracial,17.3
+New Mexico,White,14.6
+New York,Asian,11.0
+New York,Black,15.5
+New York,Hispanic,17.3
+New York,Other/Multiracial,23.9
+New York,White,14.8
+North Carolina,Black,15.3
+North Carolina,Hispanic,11.9
+North Carolina,Other/Multiracial,25.84
+North Carolina,White,14.7
+North Dakota,Hispanic,24.4
+North Dakota,Other/Multiracial,21.7
+North Dakota,White,13.3
+Ohio,Asian,12.9
+Ohio,Black,18.0
+Ohio,Hispanic,24.5
+Ohio,Other/Multiracial,32.04
+Ohio,White,17.5
+Oklahoma,Black,17.7
+Oklahoma,Hispanic,16.8
+Oklahoma,Other/Multiracial,22.69
+Oklahoma,White,17.4
+Oregon,Asian,6.9
+Oregon,Black,22.6
+Oregon,Hispanic,18.6
+Oregon,Other/Multiracial,26.5
+Oregon,White,17.5
+Pennsylvania,Asian,8.2
+Pennsylvania,Black,20.0
+Pennsylvania,Hispanic,16.9
+Pennsylvania,Other/Multiracial,25.2
+Pennsylvania,White,14.1
+Rhode Island,Asian,21.9
+Rhode Island,Black,13.0
+Rhode Island,Hispanic,14.6
+Rhode Island,Other/Multiracial,25.4
+Rhode Island,White,14.8
+South Carolina,Black,15.8
+South Carolina,Hispanic,13.4
+South Carolina,Other/Multiracial,28.19
+South Carolina,White,15.0
+South Dakota,White,12.2
+Tennessee,Black,18.5
+Tennessee,Hispanic,24.2
+Tennessee,Other/Multiracial,29.95
+Tennessee,White,19.8
+Texas,Asian,10.2
+Texas,Black,19.0
+Texas,Hispanic,16.1
+Texas,Other/Multiracial,19.4
+Texas,White,16.1
+Utah,Hispanic,15.6
+Utah,Other/Multiracial,23.0
+Utah,White,16.6
+Vermont,Hispanic,31.8
+Vermont,Other/Multiracial,33.0
+Vermont,White,15.3
+Virginia,Asian,13.4
+Virginia,Black,16.4
+Virginia,Hispanic,14.4
+Virginia,Other/Multiracial,23.1
+Virginia,White,16.5
+Washington,Asian,9.9
+Washington,Black,16.9
+Washington,Hispanic,15.4
+Washington,Other/Multiracial,27.29
+Washington,White,16.4
+West Virginia,Black,19.8
+West Virginia,Hispanic,30.1
+West Virginia,Other/Multiracial,27.6
+West Virginia,White,20.6
+Wisconsin,Black,21.4
+Wisconsin,Hispanic,18.7
+Wisconsin,Other/Multiracial,20.6
+Wisconsin,White,15.4
+Wyoming,Hispanic,17.9
+Wyoming,White,13.6
