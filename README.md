@@ -75,11 +75,8 @@ data/                         # pipeline outputs (CSVs + findings_report.json)
 RESULTS.md                    # headline model numbers + honest fit assessment + limitations
 ```
 
-## Known limitations (worth noting in your submission)
-See **RESULTS.md** for the full write-up. The honest headline: the model explains ~33% of
-state distress variance (F-test p ≈ 4×10⁻⁴), driven mainly by median income; cost burden is
-not individually significant once income is in the model — a finding worth reporting, and a
-motivation for a county-level extension where cost-burden variation is larger. Remaining
+## Known limitations
+See **RESULTS.md** for the full write-up. Remaining
 caveats:
 - Small N (50 states) makes any single train/test holdout unstable; cross-validation or a
   county-level dataset would firm up the out-of-sample estimate.
