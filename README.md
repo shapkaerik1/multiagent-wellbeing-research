@@ -1,10 +1,17 @@
 # Economic Precarity, Cultural Disparity & Psychological Wellbeing
 ### Multi-Agent AI Research System — Working Prototype (Phases 1–4)
 
+![Dashboard preview: cost-burden choropleth and the mental-distress-by-income gradient](docs/dashboard_preview.png)
+
 This is a runnable implementation of the proposal: a 4-agent pipeline (+ coordinator)
 that pulls public economic/demographic/health data, computes cost-burden and disparity
-indices, trains a regression model predicting a distress proxy, and renders results in
-an interactive Streamlit dashboard.
+indices, trains a regression model predicting per-state mental distress, and renders
+results in an interactive Streamlit dashboard.
+
+> **Headline finding:** across all 50 states, median household income is the dominant
+> predictor of frequent mental distress (p = 0.0001), and distress falls monotonically
+> from **27% below \$25k to under 9% above \$150k**. Full write-up in
+> [`RESULTS.md`](RESULTS.md).
 
 ## Status
 - **Phase 1 (data infrastructure): done.** All 4 connectors (Census, BLS, HUD, SAMHSA/CDC)
