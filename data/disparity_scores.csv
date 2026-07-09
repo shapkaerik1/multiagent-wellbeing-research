@@ -1,0 +1,51 @@
+state,disparity_score,lowest_income_group,highest_income_group
+Alabama,0.6899,Black,Asian
+Alaska,0.2711,Black,White
+Arizona,0.5296,Black,Asian
+Arkansas,0.8395,Black,Asian
+California,0.6237,Black,Asian
+Colorado,0.5238,Black,Asian
+Connecticut,0.776,Hispanic,Asian
+Delaware,0.8138,Black,Asian
+Florida,0.5276,Black,Asian
+Georgia,0.609,Black,Asian
+Hawaii,0.2531,Black,Asian
+Idaho,0.2798,Black,Asian
+Illinois,0.7825,Black,Asian
+Indiana,0.5658,Black,Asian
+Iowa,0.6156,Black,Asian
+Kansas,0.5762,Black,Asian
+Kentucky,0.5934,Black,Asian
+Louisiana,0.5662,Black,Asian
+Maine,0.2677,Black,Hispanic
+Maryland,0.4649,Black,Asian
+Massachusetts,0.6998,Hispanic,Asian
+Michigan,0.8733,Black,Asian
+Minnesota,0.6159,Black,Asian
+Mississippi,0.6287,Black,Asian
+Missouri,0.6753,Black,Asian
+Montana,0.2966,Black,White
+Nebraska,0.5124,Black,Asian
+Nevada,0.4586,Black,Asian
+New Hampshire,0.3181,Hispanic,Asian
+New Jersey,0.8711,Black,Asian
+New Mexico,0.4101,Hispanic,Asian
+New York,0.4219,Black,White
+North Carolina,0.8601,Black,Asian
+North Dakota,0.5284,Black,White
+Ohio,0.8405,Black,Asian
+Oklahoma,0.4919,Black,Asian
+Oregon,0.5994,Black,Asian
+Pennsylvania,0.7192,Black,Asian
+Rhode Island,0.5859,Hispanic,Asian
+South Carolina,0.7361,Black,Asian
+South Dakota,0.253,Black,White
+Tennessee,0.709,Black,Asian
+Texas,0.7059,Black,Asian
+Utah,0.4046,Black,Asian
+Vermont,0.472,Black,Hispanic
+Virginia,0.7202,Black,Asian
+Washington,0.6978,Black,Asian
+West Virginia,0.6798,Black,Asian
+Wisconsin,0.6956,Black,Asian
+Wyoming,0.558,Black,White
